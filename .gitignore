@@ -1,0 +1,16 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
+# Ignore Kotlin plugin data
+.kotlin
+
+# IDE and OS files
+.idea/
+*.iml
+out/
+.vscode/
+.DS_Store
+__pycache__/
