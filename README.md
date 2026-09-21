@@ -1,5 +1,9 @@
 # Result
 
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.pertyjons/result)](https://central.sonatype.com/namespace/io.github.pertyjons)
+[![Build](https://github.com/pertyjons/result/actions/workflows/build.yml/badge.svg)](https://github.com/pertyjons/result/actions/workflows/build.yml)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue)](LICENSE)
+
 A Rust-inspired `Result<T, E>` type for Java 25: a sealed sum type that is either `Ok(value)` or `Err(error)`, with a fluent API for transforming, combining and unwrapping explicitly modelled outcomes. Ships with a companion AssertJ module for concise, readable tests and a fluent HTTP client over `java.net.http` whose exchanges return a `Result`.
 
 ```java
@@ -94,7 +98,7 @@ dependencies {
 
 Each jar declares an `Automatic-Module-Name` matching its base package (`io.github.pertyjons.result`, `io.github.pertyjons.result.assertj`, `io.github.pertyjons.result.http`, `io.github.pertyjons.result.http.jackson`), so the modules can be required from a `module-info.java`.
 
-The current version lives in [`gradle.properties`](gradle.properties).
+Released versions are listed in [`CHANGELOG.md`](CHANGELOG.md) and on [Maven Central](https://central.sonatype.com/namespace/io.github.pertyjons). The development version lives in [`gradle.properties`](gradle.properties).
 
 A first end-to-end example:
 
