@@ -4,6 +4,8 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses
 [Semantic Versioning](https://semver.org/).
 
+## [Unreleased]
+
 ## [0.1.0] - 2026-09-21
 
 First public release, published to Maven Central under the group `io.github.pertyjons`:
@@ -15,4 +17,5 @@ First public release, published to Maven Central under the group `io.github.pert
 
 The API is not yet stable and may change in any 0.x release.
 
+[Unreleased]: https://github.com/pertyjons/result/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/pertyjons/result/releases/tag/v0.1.0
